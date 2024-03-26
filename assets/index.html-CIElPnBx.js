@@ -1,0 +1,1 @@
+import{_ as c,o as e,c as o,a as p}from"./_plugin-vue_export-helper-DZGDCYkY.js";const s={},t={class:"popup-page"};function n(r,_){return e(),o("div",t)}const a=c(s,[["render",n]]);p(a).mount("#popup");
