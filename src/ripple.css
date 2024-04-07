@@ -1,0 +1,19 @@
+@keyframes rippleAnimation {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+    to {
+        opacity: 0;
+        transform: scale(4);
+    }
+}
+
+.ripple {
+    position: absolute;
+    border-radius: 50%;
+    background: rgb(0, 123, 255); /* 调整为期望的颜色 */
+    transform: scale(0);
+    animation: rippleAnimation 1200ms linear;
+    pointer-events: none; /* 避免干扰其他事件 */
+}

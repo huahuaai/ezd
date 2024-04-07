@@ -40,12 +40,25 @@
   "content_scripts": [
     {
       "js": [
-        "assets/content_script.js-loader-C48ngIwm.js"
+        "assets/content_script.js-loader-Vh3ZW0BL.js"
       ],
       "matches": [
-        "https://mp.weixin.qq.com/cgi-bin/*"
+        "https://mp.weixin.qq.com/cgi-bin/filepage*",
+        "https://mp.weixin.qq.com/cgi-bin/appmsg?begin*"
       ],
-      "run_at": "document_end"
+      "run_at": "document_idle"
+    },
+    {
+      "js": [
+        "assets/insert_script.js-loader-AC5719ft.js"
+      ],
+      "matches": [
+        "https://mp.weixin.qq.com/cgi-bin/appmsg*/appmsg_edit*"
+      ],
+      "css": [
+        "src/ripple.css"
+      ],
+      "run_at": "document_idle"
     }
   ],
   "web_accessible_resources": [
@@ -54,21 +67,38 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
+        "src/ripple.css",
+        "src/assets/videoaccount.svg",
+        "src/assets/codebox.svg",
+        "src/assets/qrcode.svg",
+        "src/assets/qrcodeselected.svg",
         "src/assets/addFolder.svg",
         "src/assets/seqFrame.svg",
         "src/assets/seqFrameTreeNode.svg",
         "src/assets/folderTreeNode.svg",
         "src/assets/link.svg",
-        "src/assets/linked.svg"
+        "src/assets/linked.svg",
+        "src/assets/lrslide.svg",
+        "src/assets/lrslideselected.svg"
       ],
       "use_dynamic_url": false
+    },
+    {
+      "matches": [
+        "https://mp.weixin.qq.com/*",
+        "https://mp.weixin.qq.com/*"
+      ],
+      "resources": [
+        "assets/content_script.js-C_qKKiWV.js"
+      ],
+      "use_dynamic_url": true
     },
     {
       "matches": [
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "assets/content_script.js-CyHfwdfl.js"
+        "assets/insert_script.js-Bsj8rn0C.js"
       ],
       "use_dynamic_url": true
     }
