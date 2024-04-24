@@ -17,7 +17,9 @@
     "alarms",
     "contextMenus",
     "downloads",
-    "scripting"
+    "scripting",
+    "clipboardRead",
+    "clipboardWrite"
   ],
   "action": {
     "default_popup": "src/popup/index.html",
@@ -41,7 +43,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/material_script.js-loader-DUl_cOIX.js"
+        "assets/material_script.js-loader-BSEKYbmI.js"
       ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/filepage*",
@@ -51,7 +53,7 @@
     },
     {
       "js": [
-        "assets/edit_script.js-loader-BS5Jky4e.js"
+        "assets/edit_script.js-loader-CJzEcBA_.js"
       ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/appmsg*/appmsg_edit*"
@@ -68,7 +70,6 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "src/content_scripts/injectcode.js",
         "src/ripple.css",
         "src/assets/videoaccount.svg",
         "src/assets/codebox.svg",
@@ -91,7 +92,7 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "assets/material_script.js-mLOpugZv.js"
+        "assets/material_script.js-DMGyj0hw.js"
       ],
       "use_dynamic_url": true
     },
@@ -100,7 +101,7 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "assets/edit_script.js-CfADc6WN.js"
+        "assets/edit_script.js-BN9BacDQ.js"
       ],
       "use_dynamic_url": true
     }

@@ -1,6 +1,6 @@
 {
   "../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-jbmjS-nw.js",
+    "file": "assets/crx-manifest.js-BAA_W80_.js",
     "src": "../../../@crx/manifest",
     "isEntry": true
   },
@@ -8,25 +8,25 @@
     "file": "assets/_plugin-vue_export-helper-CNFwrUzz.js"
   },
   "edit_script.js-loader.js": {
-    "file": "assets/edit_script.js-loader-BS5Jky4e.js",
+    "file": "assets/edit_script.js-loader-CJzEcBA_.js",
     "src": "edit_script.js-loader.js"
   },
   "material_script.js-loader.js": {
-    "file": "assets/material_script.js-loader-DUl_cOIX.js",
+    "file": "assets/material_script.js-loader-BSEKYbmI.js",
     "src": "material_script.js-loader.js"
   },
   "src/background.js": {
-    "file": "assets/background.js-nj0J9a7c.js",
+    "file": "assets/background.js-DFrdI0BB.js",
     "src": "src/background.js",
     "isEntry": true
   },
   "src/content_scripts/edit_script.js": {
-    "file": "assets/edit_script.js-CfADc6WN.js",
+    "file": "assets/edit_script.js-BN9BacDQ.js",
     "src": "src/content_scripts/edit_script.js",
     "isEntry": true
   },
   "src/content_scripts/material_script.js": {
-    "file": "assets/material_script.js-mLOpugZv.js",
+    "file": "assets/material_script.js-DMGyj0hw.js",
     "src": "src/content_scripts/material_script.js",
     "isEntry": true
   },
@@ -42,14 +42,14 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-45eR7ZMS.js",
+    "file": "assets/index.html-BEcnArRy.js",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
       "__plugin-vue_export-helper-CNFwrUzz.js"
     ],
     "css": [
-      "assets/index-CI6Qvk85.css"
+      "assets/index-Bpv8_wcc.css"
     ]
   }
 }
