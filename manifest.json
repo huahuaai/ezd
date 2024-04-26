@@ -43,7 +43,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/material_script.js-loader-BSEKYbmI.js"
+        "assets/material_script.js-loader-DlaIxDvI.js"
       ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/filepage*",
@@ -53,7 +53,7 @@
     },
     {
       "js": [
-        "assets/edit_script.js-loader-CJzEcBA_.js"
+        "assets/edit_script.js-loader-BJHoWGVR.js"
       ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/appmsg*/appmsg_edit*"
@@ -92,7 +92,7 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "assets/material_script.js-DMGyj0hw.js"
+        "assets/material_script.js-CCKBACoK.js"
       ],
       "use_dynamic_url": true
     },
@@ -101,7 +101,7 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "assets/edit_script.js-BN9BacDQ.js"
+        "assets/edit_script.js-qh-oeZ3T.js"
       ],
       "use_dynamic_url": true
     }
