@@ -42,21 +42,21 @@
   "options_page": "src/options/index.html",
   "content_scripts": [
     {
-      "js": [
-        "assets/material_script.js-loader-DlaIxDvI.js"
-      ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/filepage*",
         "https://mp.weixin.qq.com/cgi-bin/appmsg*count=10*action=list_video*"
       ],
+      "js": [
+        "src/content_scripts/material_script.js-loader.js"
+      ],
       "run_at": "document_idle"
     },
     {
-      "js": [
-        "assets/edit_script.js-loader-BJHoWGVR.js"
-      ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/appmsg*/appmsg_edit*"
+      ],
+      "js": [
+        "src/content_scripts/edit_script.js-loader.js"
       ],
       "css": [
         "src/ripple.css"
@@ -66,9 +66,6 @@
   ],
   "web_accessible_resources": [
     {
-      "matches": [
-        "https://mp.weixin.qq.com/*"
-      ],
       "resources": [
         "src/ripple.css",
         "src/assets/videoaccount.svg",
@@ -84,24 +81,17 @@
         "src/assets/lrslide.svg",
         "src/assets/lrslideselected.svg"
       ],
-      "use_dynamic_url": false
+      "matches": [
+        "https://mp.weixin.qq.com/*"
+      ]
     },
     {
       "matches": [
-        "https://mp.weixin.qq.com/*",
-        "https://mp.weixin.qq.com/*"
+        "<all_urls>"
       ],
       "resources": [
-        "assets/material_script.js-CCKBACoK.js"
-      ],
-      "use_dynamic_url": true
-    },
-    {
-      "matches": [
-        "https://mp.weixin.qq.com/*"
-      ],
-      "resources": [
-        "assets/edit_script.js-qh-oeZ3T.js"
+        "**/*",
+        "*"
       ],
       "use_dynamic_url": true
     }
