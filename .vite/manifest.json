@@ -1,18 +1,18 @@
 {
-  "../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-BAA_W80_.js",
-    "src": "../../../@crx/manifest",
+  "../../../../@crx/manifest": {
+    "file": "assets/crx-manifest.js-CGgclJSC.js",
+    "src": "../../../../@crx/manifest",
     "isEntry": true
   },
-  "__plugin-vue_export-helper-CNFwrUzz.js": {
-    "file": "assets/_plugin-vue_export-helper-CNFwrUzz.js"
+  "__plugin-vue_export-helper-EiJ2KiiD.js": {
+    "file": "assets/_plugin-vue_export-helper-EiJ2KiiD.js"
   },
   "edit_script.js-loader.js": {
-    "file": "assets/edit_script.js-loader-HC2eRpgQ.js",
+    "file": "assets/edit_script.js-loader-NoVG8mCX.js",
     "src": "edit_script.js-loader.js"
   },
   "material_script.js-loader.js": {
-    "file": "assets/material_script.js-loader-DlaIxDvI.js",
+    "file": "assets/material_script.js-loader-CKfDjc0E.js",
     "src": "material_script.js-loader.js"
   },
   "src/background.js": {
@@ -21,35 +21,35 @@
     "isEntry": true
   },
   "src/content_scripts/edit_script.js": {
-    "file": "assets/edit_script.js-DsdhHTuI.js",
+    "file": "assets/edit_script.js-DL5wlpre.js",
     "src": "src/content_scripts/edit_script.js",
     "isEntry": true
   },
   "src/content_scripts/material_script.js": {
-    "file": "assets/material_script.js-CCKBACoK.js",
+    "file": "assets/material_script.js-vMQofgBd.js",
     "src": "src/content_scripts/material_script.js",
     "isEntry": true
   },
   "src/popup/index.html": {
-    "file": "assets/index.html-5LUUNAB6.js",
+    "file": "assets/index.html-DJUt2tXC.js",
     "src": "src/popup/index.html",
     "isEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-CNFwrUzz.js"
+      "__plugin-vue_export-helper-EiJ2KiiD.js"
     ],
     "css": [
       "assets/index-D3phY_Mx.css"
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-D3vHY6RB.js",
+    "file": "assets/index.html-CE5qZzEf.js",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-CNFwrUzz.js"
+      "__plugin-vue_export-helper-EiJ2KiiD.js"
     ],
     "css": [
-      "assets/index-CeQo6rC2.css"
+      "assets/index-BNBoXSP6.css"
     ]
   }
 }

@@ -43,7 +43,7 @@
   "content_scripts": [
     {
       "js": [
-        "assets/material_script.js-loader-DlaIxDvI.js"
+        "assets/material_script.js-loader-CKfDjc0E.js"
       ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/filepage*",
@@ -53,13 +53,13 @@
     },
     {
       "js": [
-        "assets/edit_script.js-loader-HC2eRpgQ.js"
+        "assets/edit_script.js-loader-NoVG8mCX.js"
       ],
       "matches": [
         "https://mp.weixin.qq.com/cgi-bin/appmsg*/appmsg_edit*"
       ],
       "css": [
-        "src/ripple.css"
+        "src/edit.css"
       ],
       "run_at": "document_idle"
     }
@@ -70,19 +70,29 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "src/ripple.css",
-        "src/assets/videoaccount.svg",
+        "src/edit.css",
         "src/assets/codebox.svg",
+        "src/assets/codeboxFocus.svg",
         "src/assets/qrcode.svg",
         "src/assets/qrcodeselected.svg",
         "src/assets/addFolder.svg",
+        "src/assets/addFolderFocus.svg",
+        "src/assets/audio.svg",
+        "src/assets/live.svg",
+        "src/assets/videoacc.svg",
+        "src/assets/redbag.svg",
+        "src/assets/video.svg",
         "src/assets/seqFrame.svg",
         "src/assets/seqFrameTreeNode.svg",
         "src/assets/folderTreeNode.svg",
         "src/assets/link.svg",
         "src/assets/linked.svg",
-        "src/assets/lrslide.svg",
-        "src/assets/lrslideselected.svg"
+        "src/assets/lrslidea.svg",
+        "src/assets/lrslideafinal.svg",
+        "src/assets/lrslideaselected.svg",
+        "src/assets/lrslideb.svg",
+        "src/assets/lrslidebfinal.svg",
+        "src/assets/lrslidebselected.svg"
       ],
       "use_dynamic_url": false
     },
@@ -92,7 +102,7 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "assets/material_script.js-CCKBACoK.js"
+        "assets/material_script.js-vMQofgBd.js"
       ],
       "use_dynamic_url": true
     },
@@ -101,7 +111,7 @@
         "https://mp.weixin.qq.com/*"
       ],
       "resources": [
-        "assets/edit_script.js-DsdhHTuI.js"
+        "assets/edit_script.js-DL5wlpre.js"
       ],
       "use_dynamic_url": true
     }
