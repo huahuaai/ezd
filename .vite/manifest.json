@@ -8,7 +8,7 @@
     "file": "assets/_plugin-vue_export-helper-EiJ2KiiD.js"
   },
   "edit_script.js-loader.js": {
-    "file": "assets/edit_script.js-loader-CID42Ma9.js",
+    "file": "assets/edit_script.js-loader-B6da6HtP.js",
     "src": "edit_script.js-loader.js"
   },
   "material_script.js-loader.js": {
@@ -21,7 +21,7 @@
     "isEntry": true
   },
   "src/content_scripts/edit_script.js": {
-    "file": "assets/edit_script.js-C8zKqlAT.js",
+    "file": "assets/edit_script.js-WwzSUEO1.js",
     "src": "src/content_scripts/edit_script.js",
     "isEntry": true
   },
@@ -42,14 +42,14 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-BRKcZATu.js",
+    "file": "assets/index.html-CpwpQlSZ.js",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
       "__plugin-vue_export-helper-EiJ2KiiD.js"
     ],
     "css": [
-      "assets/index-HIHkplCQ.css"
+      "assets/index-7p4m0xwW.css"
     ]
   }
 }
