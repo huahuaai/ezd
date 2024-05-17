@@ -42,14 +42,14 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-Cq4FiOL3.js",
+    "file": "assets/index.html-BVcJQOlP.js",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
       "__plugin-vue_export-helper-EiJ2KiiD.js"
     ],
     "css": [
-      "assets/index-CE9ggihH.css"
+      "assets/index-DruT43qB.css"
     ]
   }
 }
