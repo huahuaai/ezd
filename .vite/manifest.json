@@ -1,55 +1,122 @@
 {
   "../../../../@crx/manifest": {
-    "file": "assets/crx-manifest.js-Bsxs4t7P.js",
+    "file": "assets/crx-manifest.js-Deu12VMm.js",
+    "name": "crx-manifest.js",
     "src": "../../../../@crx/manifest",
     "isEntry": true
   },
-  "__plugin-vue_export-helper-EiJ2KiiD.js": {
-    "file": "assets/_plugin-vue_export-helper-EiJ2KiiD.js"
+  "__commonjsHelpers-Cpj98o6Y.js": {
+    "file": "assets/_commonjsHelpers-Cpj98o6Y.js",
+    "name": "_commonjsHelpers"
+  },
+  "__plugin-vue_export-helper-DOG-KaLo.js": {
+    "file": "assets/_plugin-vue_export-helper-DOG-KaLo.js",
+    "name": "_plugin-vue_export-helper"
+  },
+  "_interact.min-DamJm7fn.js": {
+    "file": "assets/interact.min-DamJm7fn.js",
+    "name": "interact.min",
+    "imports": [
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
+  "_utils-C4Bj6WAK.js": {
+    "file": "assets/utils-C4Bj6WAK.js",
+    "name": "utils"
+  },
+  "e_mask_script.js-loader.js": {
+    "file": "assets/e_mask_script.js-loader-ZmbE-I4z.js",
+    "src": "e_mask_script.js-loader.js"
   },
   "edit_script.js-loader.js": {
-    "file": "assets/edit_script.js-loader-Ig35XJAg.js",
+    "file": "assets/edit_script.js-loader-DLRbwJnh.js",
     "src": "edit_script.js-loader.js"
   },
+  "m_mask_script.js-loader.js": {
+    "file": "assets/m_mask_script.js-loader-h64c0RNO.js",
+    "src": "m_mask_script.js-loader.js"
+  },
   "material_script.js-loader.js": {
-    "file": "assets/material_script.js-loader-CKfDjc0E.js",
+    "file": "assets/material_script.js-loader-CZ9dY9XD.js",
     "src": "material_script.js-loader.js"
   },
+  "src/assets/popup/login.svg": {
+    "file": "assets/login-sC5IR686.svg",
+    "src": "src/assets/popup/login.svg"
+  },
   "src/background.js": {
-    "file": "assets/background.js-CJx0XPNr.js",
+    "file": "assets/background.js-DKxYBuyT.js",
+    "name": "background.js",
     "src": "src/background.js",
     "isEntry": true
   },
+  "src/content_scripts/e_mask_script.js": {
+    "file": "assets/e_mask_script.js-DdVHW8RI.js",
+    "name": "e_mask_script.js",
+    "src": "src/content_scripts/e_mask_script.js",
+    "isEntry": true,
+    "imports": [
+      "_interact.min-DamJm7fn.js",
+      "_utils-C4Bj6WAK.js",
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
+  },
   "src/content_scripts/edit_script.js": {
-    "file": "assets/edit_script.js-CZePGel6.js",
+    "file": "assets/edit_script.js-BV88Qia1.js",
+    "name": "edit_script.js",
     "src": "src/content_scripts/edit_script.js",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "_utils-C4Bj6WAK.js"
+    ]
+  },
+  "src/content_scripts/m_mask_script.js": {
+    "file": "assets/m_mask_script.js-UA5ii1Gg.js",
+    "name": "m_mask_script.js",
+    "src": "src/content_scripts/m_mask_script.js",
+    "isEntry": true,
+    "imports": [
+      "_interact.min-DamJm7fn.js",
+      "_utils-C4Bj6WAK.js",
+      "__commonjsHelpers-Cpj98o6Y.js"
+    ]
   },
   "src/content_scripts/material_script.js": {
-    "file": "assets/material_script.js-vMQofgBd.js",
+    "file": "assets/material_script.js-BVbqGy_H.js",
+    "name": "material_script.js",
     "src": "src/content_scripts/material_script.js",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "_utils-C4Bj6WAK.js"
+    ]
   },
   "src/popup/index.html": {
-    "file": "assets/index.html-DJUt2tXC.js",
+    "file": "assets/index.html-C-tviX3f.js",
+    "name": "index.html",
     "src": "src/popup/index.html",
     "isEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-EiJ2KiiD.js"
+      "__plugin-vue_export-helper-DOG-KaLo.js"
     ],
     "css": [
-      "assets/index-D3phY_Mx.css"
+      "assets/index-Dg44Jstx.css"
+    ],
+    "assets": [
+      "assets/login-sC5IR686.svg"
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-BVcJQOlP.js",
+    "file": "assets/index.html-CGAd_fXL.js",
+    "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
     "imports": [
-      "__plugin-vue_export-helper-EiJ2KiiD.js"
+      "__plugin-vue_export-helper-DOG-KaLo.js",
+      "__commonjsHelpers-Cpj98o6Y.js",
+      "_utils-C4Bj6WAK.js"
     ],
     "css": [
-      "assets/index-DruT43qB.css"
+      "assets/index-de-js82R.css"
     ]
   }
 }

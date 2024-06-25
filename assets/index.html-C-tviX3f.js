@@ -1,0 +1,1 @@
+import{_ as e,o as c,c as o,a as s,b as t}from"./_plugin-vue_export-helper-DOG-KaLo.js";const a={},n={class:"popup-page"},p=s("div",{class:"qrcode-scope"},null,-1),_=[p];function r(i,l){return c(),o("div",n,_)}const d=e(a,[["render",r]]);t(d).mount("#popup");

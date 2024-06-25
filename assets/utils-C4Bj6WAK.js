@@ -1,0 +1,1 @@
+let l=(o,a)=>{chrome.storage.local.set({[o]:a},function(){console.log("Data is saved")})},t=(o,a)=>{chrome.storage.local.get([o],e=>{e[o]?(console.log("Data retrieved for key",o,e[o]),a(e[o])):console.log("No data found for key",o)})},s=o=>{chrome.storage.local.remove(o,()=>{console.log("Data removed for key",o)})};export{s as d,t as l,l as s};
