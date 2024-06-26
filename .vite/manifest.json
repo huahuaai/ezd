@@ -25,7 +25,7 @@
     "name": "utils"
   },
   "e_mask_script.js-loader.js": {
-    "file": "assets/e_mask_script.js-loader-ZmbE-I4z.js",
+    "file": "assets/e_mask_script.js-loader-CRqkLn8h.js",
     "src": "e_mask_script.js-loader.js"
   },
   "edit_script.js-loader.js": {
@@ -33,7 +33,7 @@
     "src": "edit_script.js-loader.js"
   },
   "m_mask_script.js-loader.js": {
-    "file": "assets/m_mask_script.js-loader-h64c0RNO.js",
+    "file": "assets/m_mask_script.js-loader-lAHLtILh.js",
     "src": "m_mask_script.js-loader.js"
   },
   "material_script.js-loader.js": {
@@ -51,7 +51,7 @@
     "isEntry": true
   },
   "src/content_scripts/e_mask_script.js": {
-    "file": "assets/e_mask_script.js-DdVHW8RI.js",
+    "file": "assets/e_mask_script.js-Dp8z4JH5.js",
     "name": "e_mask_script.js",
     "src": "src/content_scripts/e_mask_script.js",
     "isEntry": true,
@@ -71,7 +71,7 @@
     ]
   },
   "src/content_scripts/m_mask_script.js": {
-    "file": "assets/m_mask_script.js-UA5ii1Gg.js",
+    "file": "assets/m_mask_script.js-NKrC7zl4.js",
     "name": "m_mask_script.js",
     "src": "src/content_scripts/m_mask_script.js",
     "isEntry": true,
@@ -106,7 +106,7 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-CGAd_fXL.js",
+    "file": "assets/index.html-CBtEy981.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
@@ -116,7 +116,7 @@
       "_utils-C4Bj6WAK.js"
     ],
     "css": [
-      "assets/index-de-js82R.css"
+      "assets/index-B0w8nYlX.css"
     ]
   }
 }
