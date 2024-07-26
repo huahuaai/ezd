@@ -34,17 +34,25 @@
     opacity: 1;
     max-width: 100%;
     max-height: 100%;
-    border: 2px dashed #FFF;
+    border: 2px solid #FFF;
     z-index: 10001;
 }
 .ezdrop-mask .img-container .background{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    border: 2px solid #FFF;
+}
+.ezdrop-mask .img-container .background svg,
+.ezdrop-mask .img-container .background img,
+.ezdrop-mask .img-container .background section{
     user-select: none;
     pointer-events: none;
     opacity: 1;
-    max-width: 100%;
-    max-height: 100%;
-    border: 2px dashed #FFF;
     z-index: 10001;
+}
+.ezdrop-mask .img-container .background img{
+    display: block;
 }
 .ezdrop-mask .tooltip-container{
     font-family: "mp-quote", -apple-system-font, BlinkMacSystemFont, "Helvetica Neue", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei UI", "Microsoft YaHei", Arial, sans-serif;
@@ -83,24 +91,22 @@
 .ezdrop-mask .hotzone-button,
 .ezdrop-mask .svgcanvas-button{
     position: absolute;
-    right: 20px;
+    right: 15px;
     top: 15px;
-    width: 120px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
-.ezdrop-mask .cancel-button{
-    width: 58px;
-    height: 24px;
-    border-radius: 4px;
-    border: 1px solid #eee;
-    background-color: white;
-}
 .ezdrop-mask .save-button{
-    width: 58px;
-    height: 24px;
+    width: 36px;
+    height: 36px;
+    border-radius: 18px;
     color: white;
-    border-radius: 4px;
-    background-color: #12A3FF;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ezdrop-mask .save-button:hover{
+    background-color: rgba(255, 255, 255, 0.6);
 }
