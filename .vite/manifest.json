@@ -36,7 +36,7 @@
     "src": "e_mask_script.js-loader.js"
   },
   "edit_script.js-loader.js": {
-    "file": "assets/edit_script.js-loader-DxbnoZem.js",
+    "file": "assets/edit_script.js-loader-CKObnw_K.js",
     "src": "edit_script.js-loader.js"
   },
   "m_mask_script.js-loader.js": {
@@ -73,7 +73,7 @@
     ]
   },
   "src/content_scripts/edit_script.js": {
-    "file": "assets/edit_script.js-B4NwwXPn.js",
+    "file": "assets/edit_script.js-CQ3j6lCt.js",
     "name": "edit_script.js",
     "src": "src/content_scripts/edit_script.js",
     "isEntry": true,
@@ -118,7 +118,7 @@
     ]
   },
   "src/sidepanel/index.html": {
-    "file": "assets/index.html-BTNbhaBY.js",
+    "file": "assets/index.html-DYHevAro.js",
     "name": "index.html",
     "src": "src/sidepanel/index.html",
     "isEntry": true,
@@ -128,7 +128,7 @@
       "_utils-C4Bj6WAK.js"
     ],
     "css": [
-      "assets/index-DQ6_tO8N.css"
+      "assets/index-C0bSgD2X.css"
     ]
   }
 }
